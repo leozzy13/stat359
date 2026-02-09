@@ -3246,7 +3246,7 @@ Each sentence is labeled as <strong>positive</strong>, <strong>neutral</strong>,
 <h3 class="anchored" data-anchor-id="task-1-mlp-with-mean-pooled-fasttext-sentence-embedding-25-points">Task 1: MLP with Mean-Pooled FastText Sentence Embedding <strong>(25 points)</strong></h3>
 <p>Create a script named <code>train_sentiment_mlp_classifier.py</code> and complete the following:</p>
 <ul>
-<li>Load <strong>pretrained FastText embeddings</strong> using Gensim.</li>
+<li>Load the pretrained FastText embeddings using Gensim — use the same model as in Assignment 2: <code>fasttext-wiki-news-subwords-300</code>.</li>
 <li>Tokenize each sentence and compute the <strong>mean of its word vectors</strong> to obtain a fixed-size (300-dimensional) sentence embedding.</li>
 <li>Use a <strong>Multi-Layer Perceptron (MLP)</strong> to classify the sentence embedding.</li>
 <li>Handle <strong>class imbalance</strong> using <code>nn.CrossEntropyLoss(weight=...)</code>.</li>
