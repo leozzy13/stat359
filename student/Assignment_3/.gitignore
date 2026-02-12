@@ -1,5 +1,9 @@
 *.pth
-*.png
 *.model
 *.npy
 __pycache__
+
+# Keep submission figures and metrics in outputs/
+*.png
+!outputs/*.png
+!outputs/*.json

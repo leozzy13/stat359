@@ -1,0 +1,15 @@
+{
+  "model": "LSTM",
+  "seed": 42,
+  "epochs_ran": 34,
+  "best_val_f1": 0.7637935124236495,
+  "test_loss": 1.512520309983454,
+  "test_accuracy": 0.7689133425034388,
+  "test_f1_macro": 0.7458404310691557,
+  "test_f1_weighted": 0.7665309289777643,
+  "per_class_f1": {
+    "negative": 0.7708333333333334,
+    "neutral": 0.8242009132420092,
+    "positive": 0.6424870466321243
+  }
+}
